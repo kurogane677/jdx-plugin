@@ -1,0 +1,10 @@
+[{
+    "title" : "Test Action Settings",
+    "properties" : [            
+    {
+        "name": "label",
+        "label": "Label",
+        "type": "TextField",
+        "required" : "true"
+    }]
+}]
