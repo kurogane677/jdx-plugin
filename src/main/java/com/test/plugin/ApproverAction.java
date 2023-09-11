@@ -2,9 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package id.co.itasoft.hrdc.plugin;
+package com.test.plugin;
 
-import id.co.itasoft.hrdc.plugin.dao.ApproverActionDao;
+import com.test.plugin.dao.ApproverActionDao;
 import java.util.HashMap;
 import java.util.Map;
 import org.joget.apps.app.model.AppDefinition;
@@ -19,6 +19,9 @@ import org.joget.workflow.model.service.WorkflowManager;
 /**
  *
  * @author WEEBS
+ * 
+ * NAME                             LAST UPDATE                     VERSION         COMMENT
+ * Yusril                           06 - Sep - 2023                     1.0         Initial Plugin
  */
 public class ApproverAction extends DataListActionDefault{
     

@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package id.co.itasoft.hrdc.plugin.dao;
+package com.test.plugin.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -19,6 +19,9 @@ import org.joget.commons.util.LogUtil;
 /**
  *
  * @author WEEBS
+ * 
+ * NAME                             LAST UPDATE                     VERSION         COMMENT
+ * Yusril                           06 - Sep - 2023                     1.0         Initial Files
  */
 
 public class ApprovalMappingDao {

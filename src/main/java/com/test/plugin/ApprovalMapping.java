@@ -21,6 +21,9 @@ import org.joget.workflow.model.service.WorkflowManager;
 /**
  *
  * @author WEEBS
+ * 
+ * NAME                             LAST UPDATE                     VERSION         COMMENT
+ * Yusril                           06 - Sep - 2023                     1.0         Initial Plugin
  */
 
 public class ApprovalMapping extends DefaultApplicationPlugin {
