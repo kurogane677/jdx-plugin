@@ -1,0 +1,20 @@
+[{
+    "title" : "HRDC - Levy Mapping Settings",
+    "properties" : [
+    {
+        "name" : "submodule",
+        "label" : "Submodule",
+        "type" : "selectbox",
+        "options" : [{
+            "value": "levy exemption",
+            "label" : "Levy Exemption"
+        },        {
+            "value": "levy exemption criteria",
+            "label" : "Levy Exemption Criteria"
+        },        {
+            "value": "interest waiver",
+            "label" : "Interest Waiver"
+        }],
+        "required" : "true"
+    }]
+}]

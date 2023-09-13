@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1693463381394
+Bnd-LastModified: 1694599421724
 Build-Jdk-Spec: 11
 Bundle-Activator: com.test.plugin.Activator
 Bundle-ManifestVersion: 2
