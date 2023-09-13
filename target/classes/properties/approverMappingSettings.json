@@ -1,0 +1,10 @@
+[{
+    "title" : "Test Approval Settings",
+    "properties" : [            
+    {
+        "name": "submodule",
+        "label": "submodule",
+        "type": "TextField",
+        "required" : "true"
+    }]
+}]

@@ -1,0 +1,77 @@
+[{
+    "title" : "Withdraw Action Settings",
+    "properties" : [            
+    {
+        "name": "label",
+        "label": "Label",
+        "type": "TextField",
+        "required" : "true"
+    },
+    {
+        "name": "confirmation",
+        "label": "Confirmation Message",
+        "type": "TextField",
+        "required" : "true"
+    },
+    {
+        "name" : "submodule",
+        "label" : "Submodule",
+        "type" : "selectbox",
+        "options" : [{
+            "value": "levy exemption",
+            "label" : "Levy Exemption"
+        },        {
+            "value": "levy exemption criteria",
+            "label" : "Levy Exemption Criteria"
+        },        {
+            "value": "interest waiver",
+            "label" : "Interest Waiver"
+        }],
+        "required" : "true"
+    },
+    {
+        "name": "actor_username",
+        "label": "Actor Username",
+        "type": "Textfield",
+        "required" : "true",
+        "value": "#currentUser.username#"  
+    },
+    {
+        "name": "actor_fullname",
+        "label": "Actor Fullname",
+        "type": "Textfield",
+        "required" : "true",
+        "value": "#currentUser.fullName#"  
+    },
+    {
+        "name": "remark_message",
+        "label": "Audit Trail Remark Message",
+        "type": "Textfield"
+    },
+    {
+        "name": "tableProcessName",
+        "label": "Table Process Name",
+        "type": "Textfield"
+    },
+    {
+        "name": "tableNameAudit",
+        "label": "Audit Table Name",
+        "type": "Textfield"
+    },
+    {
+        "name" : "submittype",
+        "label" : "Submit Type",
+        "type" : "selectbox",
+        "options" : [{
+            "value": "Approved",
+            "label" : "Approve"
+        },        {
+            "value": "Returned",
+            "label" : "Return"
+        },        {
+            "value": "Rejected",
+            "label" : "Reject"
+        }],
+        "required" : "true"
+    }]
+}]
